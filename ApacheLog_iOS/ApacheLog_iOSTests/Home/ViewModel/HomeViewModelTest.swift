@@ -23,7 +23,7 @@ class HomeViewModelTest: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func test_getMostCommonSequence() throws {
         //Given
         let logInfos = [LogInfo(user: "A", requestedPage: "Page1"),
                         LogInfo(user: "B", requestedPage: "Page1"),
